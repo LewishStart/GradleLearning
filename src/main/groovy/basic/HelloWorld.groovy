@@ -1,3 +1,3 @@
-package variable
+package basic
 
 println "Hello"
