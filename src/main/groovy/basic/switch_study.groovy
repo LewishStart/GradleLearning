@@ -1,4 +1,33 @@
-package variable
+package basic
+/**
+ * switch
+ */
+def x = 1.23
+def result
+switch (x){
+    case 'foo':
+        result = 'foo'
+        break
+    case 'bar':
+        result = 'bar'
+        break
+    case [1.23,4,5,6,'list']:
+        result = 'list'
+        break
+    case 12..15:
+        result = 'range'
+        break
+    case Integer:
+        result = "Integer"
+        break
+    case BigDecimal:
+        result = "BigDecimal"
+        break
+    default:
+        result = ""
+
+}
+println result
 /**
  * 循环
  */

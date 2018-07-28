@@ -1,4 +1,4 @@
-package file_study
+package file
 
 def file = new File('../../GroovyLearning.iml')
 //file.eachLine {println it}

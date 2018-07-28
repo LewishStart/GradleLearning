@@ -1,4 +1,4 @@
-package variable
+package datastructure
 
 def range = 1..10
 println "range[0]=${range[0]}"

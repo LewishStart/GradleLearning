@@ -1,8 +1,8 @@
-package variable
+package clouser
 /**
  * 闭包基本使用
  */
-//def clouser = {println "Hello ${it}"}
+//def clouser = {println "HelloWorld ${it}"}
 //clouser.call("Groovy")
 //clouser("Groovy")
 //def name = "Java"

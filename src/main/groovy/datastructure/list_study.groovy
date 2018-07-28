@@ -1,4 +1,4 @@
-package variable
+package datastructure
 
 //def list = new ArrayList()//java定义方式
 //定义List

@@ -1,3 +1,3 @@
 package basic
 
-println "Hello"
+println "HelloWorld"

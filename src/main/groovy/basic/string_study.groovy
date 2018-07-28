@@ -1,14 +1,11 @@
-package variable
+package basic
 /**
  * 字符串定义方式
  */
+//方式一
 def name = 'a single string'
 println name.class
-
-def thumpleName = '''three single string'''
-println thumpleName.class
-println thumpleName
-
+//方式二
 def sum = "The sum of 2 and 3 equals ${2 + 3}"
 println sum
 println sum.class
@@ -19,6 +16,10 @@ String echo(String message) {
 
 def result = echo(sum)
 println result
+//方式三
+def thumpleName = '''three single string'''
+println thumpleName.class
+println thumpleName
 
 /*
 字符串的方法
@@ -32,8 +33,8 @@ println str[0]
 println str[0..1]
 
 
-println "Hello Groovy" - "Groovy"
-println "Hello Groovy".minus("Groovy")
+println "HelloWorld Groovy" - "Groovy"
+println "HelloWorld Groovy".minus("Groovy")
 println str.reverse()
 println str.capitalize()
 println str.isNumber()
